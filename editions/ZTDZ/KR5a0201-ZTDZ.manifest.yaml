@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0201/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0201/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 北斗七元星燈儀
+  date: '2015-08-28 23:40:51.753270'
+  source:
+    repository: kanripo
+    path: KR5a0201
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0201_000-ZTDZ.yaml, hash: 'sha256:6cb7dff003c9d81030083c520cb960bc061b9e77c9cf0c67b6db1734e9240eb2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0201_000-ZTDZ.markers.yaml, hash: 'sha256:5357c934123f89ec527d48c9eccd36c3cd11dd1eadaf0a05e282b8cb44bf657f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0201_SJB_000-030567a
+    span:
+    - body
+    - 0
+    - 1868
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:521e46a53b61e1cd338310901395d750b20b630653e32f6fbf7fcb392e0b7875
